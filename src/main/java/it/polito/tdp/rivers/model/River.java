@@ -1,5 +1,6 @@
 package it.polito.tdp.rivers.model;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,6 +9,10 @@ public class River {
 	private String name;
 	private double flowAvg;
 	private List<Flow> flows;
+	 public LocalDate prima;
+	public LocalDate ultima;
+	public int nMisurazioni;
+	public double media;
 	
 	public River(int id) {
 		this.id = id;
